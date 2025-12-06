@@ -1,0 +1,59 @@
+body {
+    background:linear-gradient(0deg, #cecdcd 0%, #ffffff 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logosss {
+    position: relative;
+    width: 600px; 
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logotengah {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logotengah img {
+    width: 350px; 
+    height: auto;
+}
+
+.circle {
+    position: absolute;
+    width: 145px;
+    height: 145px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 0.4s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.circle:hover {
+    background: #008000; 
+    color: #fff;
+}
+
+.name4 { transform: rotate(357deg)  translate(270px) rotate(-357deg); }
+.name5 { transform: rotate(33deg)  translate(270px) rotate(-33deg); }
+.name6 { transform: rotate(69deg)  translate(270px) rotate(-69deg); }
+.name7 { transform: rotate(105deg) translate(270px) rotate(-105deg); }
+.name8 { transform: rotate(141deg) translate(270px) rotate(-141deg); }
+.name9 { transform: rotate(177deg) translate(270px) rotate(-177deg); }
+.name10 { transform: rotate(213deg) translate(270px) rotate(-213deg); }
+.name1 { transform: rotate(249deg) translate(270px) rotate(-249deg); }
+.name2 { transform: rotate(285deg) translate(270px) rotate(-285deg); }
+.name3{ transform: rotate(321deg) translate(270px) rotate(-321deg); }
